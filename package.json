@@ -1,13 +1,16 @@
 {
+  "homepage": "https://rizalibnu.github.io/React-360-Virtual-Tour-Example/",
   "name": "React360VirtualTour",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-360/scripts/packager.js",
-    "bundle": "node node_modules/react-360/scripts/bundle.js && cp -R static_assets build",
+    "build": "node node_modules/react-360/scripts/bundle.js && cp -R static_assets build",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html?hotreload')\"",
     "devtools": "react-devtools",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "16.3.2",
@@ -28,6 +31,7 @@
     "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-react": "^7.19.0",
+    "gh-pages": "^2.2.0",
     "jest": "^19.0.2",
     "prettier": "^2.0.4",
     "react-devtools": "^2.5.2",
