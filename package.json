@@ -2,7 +2,6 @@
   "homepage": "https://rizalibnu.github.io/React-360-Virtual-Tour-Example/",
   "name": "React360VirtualTour",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "start": "node node_modules/react-360/scripts/packager.js",
     "build": "node node_modules/react-360/scripts/bundle.js && cp -R static_assets build",
