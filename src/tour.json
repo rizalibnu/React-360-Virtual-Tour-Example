@@ -1,0 +1,92 @@
+{
+  "default": {
+    "firstSceneId": 1
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "Plaza de Callao",
+      "panorama": "panorama/pano-1.jpg",
+      "hotSpots": [
+        {
+          "type": "scene",
+          "sceneId": 3,
+          "left": 1400,
+          "top": 1000,
+          "text": "Plaza Mayor"
+        },
+        {
+          "type": "info",
+          "left": 400,
+          "top": 1300,
+          "text": "Lift MRT"
+        },
+        {
+          "type": "info",
+          "left": 2950,
+          "top": 1300,
+          "text": "Tempat sampah"
+        },
+        {
+          "type": "title",
+          "left": 1900,
+          "top": 1000,
+          "text": "Plaza de Callao"
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "Mercado de San Miguel",
+      "panorama": "panorama/pano-2.jpg",
+      "hotSpots": [
+        {
+          "type": "scene",
+          "sceneId": 3,
+          "left": 1400,
+          "top": 1150,
+          "text": "Plaza Mayor"
+        },
+        {
+          "type": "title",
+          "left": 2900,
+          "top": 1000,
+          "text": "Mercado de San Miguel"
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "Plaza Mayor",
+      "panorama": "panorama/pano-3.jpg",
+      "hotSpots": [
+        {
+          "type": "scene",
+          "sceneId": 1,
+          "left": 4150,
+          "top": 1120,
+          "text": "Plaza de Callao"
+        },
+        {
+          "type": "scene",
+          "sceneId": 2,
+          "left": 3350,
+          "top": 1180,
+          "text": "Mercado de San Miguel"
+        },
+        {
+          "type": "info",
+          "left": 230,
+          "top": 1200,
+          "text": "Orang ini lagi nunggu ojol"
+        },
+        {
+          "type": "title",
+          "left": 1500,
+          "top": 1000,
+          "text": "Plaza Mayor"
+        }
+      ]
+    }
+  ]
+}
