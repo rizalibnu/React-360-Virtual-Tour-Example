@@ -12,7 +12,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "react": "16.3.2",
+    "react": "16.13.1",
     "react-360": "~1.1.0",
     "react-360-gaze-button": "^1.0.0",
     "react-360-web": "~1.1.0",
