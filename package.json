@@ -19,7 +19,7 @@
     "react-native": "~0.55.4",
     "simple-raycaster": "^1.1.0",
     "three": "^0.87.0",
-    "webvr-polyfill": "^0.10.11"
+    "webvr-polyfill": "^0.10.12"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

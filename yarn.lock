@@ -1846,10 +1846,10 @@ capture-stack-trace@^1.0.0:
   resolved "https://registry.yarnpkg.com/capture-stack-trace/-/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
   integrity sha512-mYQLZnx5Qt1JgB1WEiMCf2647plpGeQ2NMR/5L0HNZzGQo4fuSPnK+wjfPnKZV0aiJDgzmWqqkV/g7JD+DW0qw==
 
-cardboard-vr-display@^1.0.18:
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/cardboard-vr-display/-/cardboard-vr-display-1.0.18.tgz#50d0eadcb3a3b3f172f80ba213c50c602b2637ab"
-  integrity sha512-G1UEitQBT3pODLnMx37xv9JyZktCBTkwjxS4Vz9KmYL0Ln+Crm/CI7o4WEqAyS6xZjxR3cAvcClou1edX/JUbA==
+cardboard-vr-display@^1.0.19:
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/cardboard-vr-display/-/cardboard-vr-display-1.0.19.tgz#81dcde1804b329b8228b757ac00e1fd2afa9d748"
+  integrity sha512-+MjcnWKAkb95p68elqZLDPzoiF/dGncQilLGvPBM5ZorABp/ao3lCs7nnRcYBckmuNkg1V/5rdGDKoUaCVsHzQ==
   dependencies:
     gl-preserve-state "^1.0.0"
     nosleep.js "^0.7.0"
@@ -7131,12 +7131,12 @@ webvr-polyfill-dpdb@^1.0.17:
   resolved "https://registry.yarnpkg.com/webvr-polyfill-dpdb/-/webvr-polyfill-dpdb-1.0.17.tgz#1165e964c9f6bd69cd36b02cd1dc0ece4ca833ca"
   integrity sha512-WOd4s0gSrb0fOlOtIpqFbwLBATax/ka7DFAB/u+C9KJBBJk1/x/FZlFynOqsNrUxMJniOdO7ViFJwVdMScMQzA==
 
-webvr-polyfill@^0.10.11:
-  version "0.10.11"
-  resolved "https://registry.yarnpkg.com/webvr-polyfill/-/webvr-polyfill-0.10.11.tgz#6c90c916fea0c9003fdc41d14d6ce02817e7b9a7"
-  integrity sha512-mzTuMpC3W/aKmm5QxYtTzXAxhVo3tR4c0D5Kihk8Q38GVxiCOvS4Ga4LBN8CsFVpXu1WkGeuf/hMzF75iWYiyA==
+webvr-polyfill@^0.10.12:
+  version "0.10.12"
+  resolved "https://registry.yarnpkg.com/webvr-polyfill/-/webvr-polyfill-0.10.12.tgz#47ea0b0d558f09e089bc49fa7b47a4ee7e4b8148"
+  integrity sha512-trDJEVUQnRIVAnmImjEQ0BlL1NfuWl8+eaEdu+bs4g59c7OtETi/5tFkgEFDRaWEYwHntXs/uFF3OXZuutNGGA==
   dependencies:
-    cardboard-vr-display "^1.0.18"
+    cardboard-vr-display "^1.0.19"
 
 whatwg-encoding@^1.0.1:
   version "1.0.5"
