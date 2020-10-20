@@ -33,7 +33,7 @@
     "gh-pages": "^2.2.0",
     "jest": "^19.0.2",
     "prettier": "^2.0.4",
-    "react-devtools": "^2.5.2",
+    "react-devtools": "^4.9.0",
     "react-test-renderer": "16.0.0",
     "xopen": "1.0.0"
   },
